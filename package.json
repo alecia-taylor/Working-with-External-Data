@@ -1,0 +1,22 @@
+{
+    "name": "cat-breed-selector",
+    "version": "1.0.0",
+    "description": "A web application that fetches and displays cat images based on selected breeds using The Cat API.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "axios": "^1.6.0",
+      "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.0"
+    },
+    "type": "module",
+    "keywords": ["cat", "API", "fetch", "breeds", "carousel"],
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
